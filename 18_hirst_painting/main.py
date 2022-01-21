@@ -14,7 +14,7 @@ def draw_dot_and_move(lilturtle, color, next_heading, next_distance):
 
 def choose_color(list_of_colors):
     color = random.choice(list_of_colors).rgb
-    color_list = [color[0], color[2], color[1]]
+    color_list = [color[0], color[1], color[2]]
     return tuple(color_list)
 
 
